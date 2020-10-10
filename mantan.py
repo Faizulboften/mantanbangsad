@@ -12,30 +12,27 @@ def kata(s):
         time.sleep(1./300)
 def baner():
     time.sleep(0.1)
-    kata("""\n\t\033[90m~  ~  ~\033[92m┌∩┐\033[94m(\033[91m◣_◢\033[94m)\033[92m┌∩┐\033[90m~  ~  ~
-\t\033[00m FACEBOOK MBF COOKIES V2
-\t\033[90m -----------------------\033[94m\n
-===========================================\033[00m
-Creator \033[1;91m: \033[1;96mFahmiApz\033[00m
-Youtube \033[1;91m: \033[1;96mKnifer12\033[00m
-Github  \033[1;91m: \033[4;92mgithub.com/BladeKnife\033[00m
-\033[94m===========================================\033[00m""")
+    kata(""" 
+\033[32;1m__  _ __  _    _   _    __ ___   ___           \033[32;1m╔════════════════════════════════════╗
+\033[32;1m,'_/ /// /,' \ ,' \ / //7/ // _/ ,' _/                \033[31;1mDEVLOPER : Faizul Boften
+\033[32;1m/ /_ / ` // o |/ o |/  ,'/ // _/ _\ `.                \033[31;1mFACEBOOK : Faizul  
+\033[32;1m|__//_n_/ |_,' |_,'/_/\\/_//___//___,                 \033[31;1mWHATSAPP : 082271426251                                                          \033[32;1m╚════════════════════════════════════╝""")
 def balik():
     f=input("\033[00m\t[\033[96mEnter To Back\033[00m]")
     if f == "":
-       os.system("python mbf.py")
+       os.system("python mantan.py")
     else:
        sys.exit("\033[1;91mexit\033[00m")
 def mbf():
     time.sleep(0.1)
-    print("\033[00m[\033[93m1\033[00m] Login")
-    print("\033[00m[\033[93m2\033[00m] Update")
-    print("\033[00m[\033[93m3\033[00m] Group WA")
-    print("\033[00m[\033[93m4\033[00m] Exit")
+    print("\033[00m[\033[32;1m1\033[34;1m] Login")
+    print("\033[00m[\033[32;1m2\033[34;1m] Update")
+    print("\033[00m[\033[32;1m3\033[34;1m] Group WA")
+    print("\033[00m[\033[32:1m4\033[34;1m] Exit")
     time.sleep(0.1)
     f=input("\n\033[90m> \033[1;93m")
     if f == "1":
-         print("\033[1;94m===========================================\033[00m")
+         print("\033[36;1m===========================================\033[36;1m")
          mbasic = 'https://mbasic.facebook.com{}'
          global die,check,result, count
          id = []
@@ -174,6 +171,8 @@ def mbf():
                    kuki = {'cookie':kukis}
                    clear()
                    baner()
+                   kata('\033[1;38;5;208mSILAKAN PILI MENU HACKING')
+                   kata('\033[1;38;5;208m=============================================\033[1;38;5;208m')
                    kata('\033[1;97m[\033[1;93m1\033[1;97m] \033[00mCrack Daftar Teman')
                    kata('\033[1;97m[\033[1;93m2\033[1;97m] \033[00mCrack Dari Like Post\033[1;97m ')
                    kata('\033[1;97m[\033[1;93m3\033[1;97m] \033[00mCrack Dari Pencarian Nama')
